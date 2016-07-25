@@ -14,7 +14,6 @@
   font-family:$font;
   color:#fff !important;
   padding:8px 20px;
-	border-radius:30px;
   background-color:#40454D;
   display:inline-block;
   &:active {
@@ -22,24 +21,23 @@
   }
   
   &.green {
-    background-color:#96BF48;
-    border-color:#96BF48;
-    border-bottom-color:#86a350;
-    &:active { background-color:#A8D750}
+    background-color:#3BB479;
+    border-color:#3BB479;
+    border-bottom-color:#3BB479;
+    &:active { background-color:#3BB479}
   }
 
   &.loading {
-    background-image:url(/images/spinners/button-green.gif);
     background-repeat:no-repeat;
     background-position:50% 50%;
     color:transparent !important;
   }
   
   &.purple {
-    background-color:#C17391;
-    border-color:#C17391;
-    border-bottom-color:#a7667f;
-    &:active { background:#DC83A6}
+    background-color:#E66B5C;
+    border-color:#E66B5C;
+    border-bottom-color:#E66B5C;
+    &:active { background:#E66B5C}
   }
   
   &.orange {

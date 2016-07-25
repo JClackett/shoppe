@@ -21,20 +21,17 @@
     %table.data
       %thead
         %tr
-          %th{:width => '25%'}= t('shoppe.stock_level_adjustments.date')
-          %th{:width => '50%'}= t('shoppe.stock_level_adjustments.description')
-          %th{:width => '25%'}= t('shoppe.stock_level_adjustments.adjustment')
+          %th{:width => '50%'}= t('shoppe.stock_level_adjustments.date')
+          %th{:width => '50%'}= t('shoppe.stock_level_adjustments.adjustment')
       %tbody
         %tr.form
           %td
-          %td.desc= f.text_field :description
           %td.adjustment
             = f.text_field :adjustment
             = f.submit t('shoppe.stock_level_adjustments.add'), :class => 'button button-mini green'
         - for sla in @stock_level_adjustments
           %tr
             %td= l(sla.created_at, format: :long)
-            %td= sla.description
             %td= sla.adjustment > 0  ? "+#{sla.adjustment}" : sla.adjustment
 
     = paginate @stock_level_adjustments

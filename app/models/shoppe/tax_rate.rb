@@ -8,7 +8,6 @@ module Shoppe
     ADDRESS_TYPES = %w(billing delivery).freeze
 
     # Validations
-    validates :name, presence: true
     validates :address_type, inclusion: { in: ADDRESS_TYPES }
     validates :rate, numericality: true
 
