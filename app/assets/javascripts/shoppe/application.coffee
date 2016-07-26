@@ -126,3 +126,11 @@ Mousetrap.bind 'escape', ->
   Nifty.Dialog.closeTopDialog()
   false
   
+### --------------------------------------------------
+   Hide Flash Messages
+-------------------------------------------------- 
+###
+
+$(document).on 'ready page:load', ->
+  $('#flash-notice').delay(1500).fadeOut 600
+  return
