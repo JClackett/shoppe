@@ -12,44 +12,45 @@ body { font-family:$font; font-weight: normal; font-size: 100%; min-width:900px;
 @import 'variables';
 
 html.login {
-	
-	#flash-alert {
-		background:#E66B5C;
-		position:absolute;
-		top:0;
-		width:100%;
-		text-align:center;
-		color:#fff;
-		padding:15px 0;
-	}
-	
-	#flash-notice {
-		background:#94C164;
-		position:absolute;
-		top:0;
-		width:100%;
-		text-align:center;
-		color:#fff;
-		padding:15px 0;
-	}
-	
-	//
-	// Error
-	//
-	div.error {
+  background-color: #40454D;
+  
+  #flash-alert {
+    background:#E66B5C;
+    position:absolute;
+    top:0;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    padding:15px 0;
+  }
+  
+  #flash-notice {
+    background:#94C164;
+    position:absolute;
+    top:0;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    padding:15px 0;
+  }
+  
+  //
+  // Error
+  //
+  div.error {
     background:#fff;
     width:400px;
     margin:auto;
     margin-top:200px;
-		padding:25px;
-		line-height:1.5;
-		font-size:0.9em;
-		text-align:center;
-		h2 { color:#C17391; text-transform:uppercase; font-size:0.8em; margin-bottom:15px;}
-		p.back { margin-top:25px;}
-		p.message { font-size:1.1em;}
+    padding:25px;
+    line-height:1.5;
+    font-size:0.9em;
+    text-align:center;
+    h2 { color:#C17391; text-transform:uppercase; font-size:0.8em; margin-bottom:15px;}
+    p.back { margin-top:25px;}
+    p.message { font-size:1.1em;}
   }
-	
+  
   //
   // Primary login area
   //
@@ -58,15 +59,15 @@ html.login {
     width:400px;
     margin:auto;
     margin-top:200px;
-		padding-top:50px;
-		
-		h2 {
-			text-align:center;
-			font-weight:300;
-			font-size:1.4em;
-			color:#40454D;
-			margin-bottom:30px;
-		}
+    padding-top:50px;
+    
+    h2 {
+      text-align:center;
+      font-weight:300;
+      font-size:1.4em;
+      color:#40454D;
+      margin-bottom:30px;
+    }
     p.field {
       text-align:center;
       margin-bottom:15px;
