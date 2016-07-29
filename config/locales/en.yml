@@ -54,11 +54,11 @@ en:
         postcode: Postcode
         country: Country
       shoppe/order:
-        billing_address1: Billing address1
-        billing_address3: Billing address3
+        billing_address1: House Number/Name
+        billing_address3: Street
         billing_address4: Billing address4
-        billing_country: Billing country
-        billing_postcode: Billing postcode
+        billing_country: Country
+        billing_postcode: Postcode
         delivery_address1: Delivery address1
         delivery_address3: Delivery address3
         delivery_address4: Delivery address4
