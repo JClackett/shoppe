@@ -24,6 +24,7 @@ module Shoppe
     # Validations
     validates :address_type, presence: true, inclusion: { in: TYPES }
     validates :address1, presence: true
+    validates :address2, presence: true
     validates :address3, presence: true
     # validates :address4, presence: true
     validates :postcode, presence: true
