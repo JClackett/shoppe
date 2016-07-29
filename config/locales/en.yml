@@ -55,8 +55,9 @@ en:
         country: Country
       shoppe/order:
         billing_address1: House Number/Name
-        billing_address3: Street
-        billing_address4: Billing address4
+        billing_address2: Street
+        billing_address3: City/Town
+        # billing_address4: Billing address4
         billing_country: Country
         billing_postcode: Postcode
         delivery_address1: Delivery address1
