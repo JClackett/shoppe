@@ -6,7 +6,7 @@ module Shoppe
     def create
       if user = Shoppe::User.authenticate(params[:email_address], params[:password])
         session[:shoppe_user_id] = user.id
-        redirect_to :orders
+        redirect_to request.subdomain
       else
         flash.now[:alert] = t('shoppe.sessions.create_alert')
         render action: 'new'
